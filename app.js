@@ -58,6 +58,12 @@ if (energy == "Solar Power PV") {
   document.write("<h3>" + "Great choice easy to maintain & install on the roof, it could cover most of the Household Consumption" + "</h3>")
   }
 
+
+if (energy == "Solar Power PV") {
+  document.write("<h3>" + "Great choice easy to maintain & install on the roof, it could cover most of the Household Consumption" + "</h3>")
+  }
+
+
 else if (energy == "Wind") {  
   document.write("<h3>" + "Promising source of Energy, is it the most expensive projects but the more efficient on the long term" + "</h3>")
   }
