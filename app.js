@@ -28,22 +28,45 @@ else { code }
 alert () = showing info to user
 */
 
+/*
+loop: when we want to repeat the code like in a cycle.
+
+for: how many the code need to run.
+
+for (initial exp, condition, counter){ the code I want to repeat
+
+}
+for (var i = 0; i<20 )
+
+
+*/
 var name = prompt("What is your name ?")
 alert ("Welcome to the Green Energy World Dear " + name )
 
 var energy = prompt("What field of Green Clean Energy are you curious about from these (Solar Power PV, Wind, Hydroelectric)?")
 
-if (energy == "Solar Power PV"){
-  document.write("<p>" + "Very practical choice, easy to install on the roof & covers all the household consumption." + "</p>")
-    }
+while (energy != "Solar Power PV" && energy != "Wind" && energy != "Hydroelectric" ) {
+  energy = prompt("you entered wrong type of energy, can you try again?")
+}
 
-else if (energy == "Wind"){  
-  document.write("<p>" + "Wind Farm is the most Expensive energy project but one of the promising power supply on the long term, you can read a breif about it here." + "</p>")
+var numOfrating = prompt("What star rating would you give, 1-5?")
+for (var i=0; i<numOfrating; i++){
+  document.write("<img src= 'https://i.dlpng.com/static/png/476124_preview.png' >" )
+
+}
+if (energy == "Solar Power PV") {
+  document.write("<h3>" + "Great choice easy to maintain & install on the roof, it could cover most of the Household Consumption" + "</h3>")
   }
 
-else if (energy == "Hyrdoelectric"){ 
-  document.write("<p>" + "Falling streams of water from a height makes it gain Potential Energy which by means of Gravity it can move a Turbine Blades to generate power, this is the purpose of Hydro Dams." + "</p>")
-   }
+else if (energy == "Wind") {  
+  document.write("<h3>" + "Promising source of Energy, is it the most expensive projects but the more efficient on the long term" + "</h3>")
+  }
+
+
+else if (energy == "Hyrdoelectric") { 
+  document.write("<h3>" + "Useful way to convert the Potential Energy of the falling water into electricity by moving blades of the turbine that coupled with a generator" + "</h3>")
+
+}
 
 else confirm ("Sorry you seem still like the old fashioned way of generating power")
 
