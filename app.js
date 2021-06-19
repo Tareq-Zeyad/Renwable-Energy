@@ -40,7 +40,8 @@ for (var i = 0; i<20 )
 
 
 */
-var name = prompt("What is your name ?")
+
+/*var name = prompt("What is your name ?")
 alert ("Welcome to the Green Energy World Dear " + name )
 
 var energy = prompt("What field of Green Clean Energy are you curious about from these (Solar Power PV, Wind, Hydroelectric)?")
@@ -51,12 +52,10 @@ while (energy != "Solar Power PV" && energy != "Wind" && energy != "Hydroelectri
 
 var numOfrating = prompt("What star rating would you give, 1-5?")
 for (var i=0; i<numOfrating; i++){
-  document.write("<img src= 'https://i.dlpng.com/static/png/476124_preview.png' >" )
+  document.write("<img src= 'https://i5.walmartimages.com/asr/389afce0-83e2-4dd5-9fa8-767987f602d3_1.76e005ac52f7fec8aa5c8ae8aafcb2c6.jpeg' >" )
 
-}
-if (energy == "Solar Power PV") {
-  document.write("<h3>" + "Great choice easy to maintain & install on the roof, it could cover most of the Household Consumption" + "</h3>")
-  }
+}*/
+
 
 
 if (energy == "Solar Power PV") {
