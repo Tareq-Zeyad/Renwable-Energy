@@ -43,8 +43,6 @@ for (var i = 0; i<20 )
 
 
 var name = prompt("What is your name ?")
-=======
-var name = prompt("What is your name ?")
 
 alert ("Welcome to the Green Energy World Dear " + name )
 
