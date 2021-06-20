@@ -41,7 +41,11 @@ for (var i = 0; i<20 )
 
 */
 
+
 var name = prompt("What is your name ?")
+=======
+var name = prompt("What is your name ?")
+
 alert ("Welcome to the Green Energy World Dear " + name )
 
 var energy = prompt("What field of Green Clean Energy are you curious about from these (Solar Power PV, Wind, Hydroelectric)?")
@@ -49,6 +53,7 @@ var energy = prompt("What field of Green Clean Energy are you curious about from
 while (energy != "Solar Power" && energy != "Wind" && energy != "Hydroelectric" ) {
   energy = prompt("you entered wrong type of energy, can you try again, choose one of (Solar Power, Wind, Hydroelectric)?")
 }
+
 
 function rating (){
 
@@ -61,8 +66,8 @@ var num = rating();
 for (var i=0; i<num; i++){
 
   document.write("<img src= 'https://charbase.com/images/glyph/11090' >" )
-
 }
+
 
 
 if (energy == "Solar Power PV") {

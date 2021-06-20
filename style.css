@@ -8,7 +8,11 @@
 
 body{
    background-color: rgb(30, 150, 30);
+<<<<<<< HEAD
    /* margin: 0; */
+=======
+   margin: 0;
+>>>>>>> c28bf2546899530eda1a4110457b7db312f1e870
  }
 
  header{
@@ -49,7 +53,11 @@ body{
   }
    section{
   /* property : value ; */
+<<<<<<< HEAD
   /* height: 300px ; */
+=======
+  height: 300px ;
+>>>>>>> c28bf2546899530eda1a4110457b7db312f1e870
   width: 100%;
   background-color: rgb(236, 226, 74);
   color: black;
