@@ -40,23 +40,29 @@ for (var i = 0; i<20 )
 
 
 */
+
 var name = prompt("What is your name ?")
 alert ("Welcome to the Green Energy World Dear " + name )
 
 var energy = prompt("What field of Green Clean Energy are you curious about from these (Solar Power PV, Wind, Hydroelectric)?")
 
-while (energy != "Solar Power PV" && energy != "Wind" && energy != "Hydroelectric" ) {
-  energy = prompt("you entered wrong type of energy, can you try again?")
+while (energy != "Solar Power" && energy != "Wind" && energy != "Hydroelectric" ) {
+  energy = prompt("you entered wrong type of energy, can you try again, choose one of (Solar Power, Wind, Hydroelectric)?")
 }
 
-var numOfrating = prompt("What star rating would you give, 1-5?")
-for (var i=0; i<numOfrating; i++){
-  document.write("<img src= 'https://i.dlpng.com/static/png/476124_preview.png' >" )
+function rating (){
+
+var numOfrating = prompt("What star rating would you give us, 1-5?")
+return numOfrating;
+}
+
+var num = rating();
+
+for (var i=0; i<num; i++){
+
+  document.write("<img src= 'https://charbase.com/images/glyph/11090' >" )
 
 }
-if (energy == "Solar Power PV") {
-  document.write("<h3>" + "Great choice easy to maintain & install on the roof, it could cover most of the Household Consumption" + "</h3>")
-  }
 
 
 if (energy == "Solar Power PV") {
